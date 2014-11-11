@@ -5,3 +5,6 @@ install: true
 script:
  - mkdir -p shippable/testresults
  - cp report.xml shippable/testresults
+notifications:
+  email:
+     - ragesh@shippable.com
