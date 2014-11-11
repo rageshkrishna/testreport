@@ -7,5 +7,6 @@ script:
  - cp report.xml shippable/testresults
 notifications:
   email:
-     - ragesh@shippable.com
-  on_success: always
+    recipients:
+      - ragesh@shippable.com
+    on_success: always
